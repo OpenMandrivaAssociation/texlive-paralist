@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/paralist
+# catalog-date 2009-10-07 21:35:42 +0200
+# catalog-license lppl
+# catalog-version 2.3b
 Name:		texlive-paralist
 Version:	2.3b
 Release:	1
@@ -46,6 +52,7 @@ provides compacted versions of enumerate and itemize.
 %doc %{_texmfdistdir}/source/latex/paralist/paralist.drv
 %doc %{_texmfdistdir}/source/latex/paralist/paralist.dtx
 %doc %{_texmfdistdir}/source/latex/paralist/paralist.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ provides compacted versions of enumerate and itemize.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
