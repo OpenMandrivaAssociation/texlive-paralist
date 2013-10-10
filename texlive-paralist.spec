@@ -1,12 +1,12 @@
-# revision 15878
+# revision 30992
 # category Package
 # catalog-ctan /macros/latex/contrib/paralist
-# catalog-date 2009-10-07 21:35:42 +0200
+# catalog-date 2013-06-13 19:52:23 +0200
 # catalog-license lppl
-# catalog-version 2.3b
+# catalog-version 2.4
 Name:		texlive-paralist
-Version:	2.3b
-Release:	2
+Version:	2.4
+Release:	1
 Summary:	Enumerate and itemize within paragraphs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/paralist
@@ -52,17 +52,3 @@ provides compacted versions of enumerate and itemize.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.3b-2
-+ Revision: 754642
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.3b-1
-+ Revision: 719190
-- texlive-paralist
-- texlive-paralist
-- texlive-paralist
-- texlive-paralist
-
