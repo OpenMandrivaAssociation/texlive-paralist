@@ -6,7 +6,7 @@
 # catalog-version 2.4
 Name:		texlive-paralist
 Version:	2.4
-Release:	8
+Release:	9
 Summary:	Enumerate and itemize within paragraphs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/paralist
