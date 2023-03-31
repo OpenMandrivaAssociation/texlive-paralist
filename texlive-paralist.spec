@@ -1,6 +1,6 @@
 Name:		texlive-paralist
 Version:	43021
-Release:	1
+Release:	2
 Summary:	Enumerate and itemize within paragraphs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/paralist
