@@ -3,7 +3,7 @@ Version:	43021
 Release:	2
 Summary:	Enumerate and itemize within paragraphs
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/paralist
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/paralist
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/paralist.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/paralist.doc.r%{version}.tar.xz
